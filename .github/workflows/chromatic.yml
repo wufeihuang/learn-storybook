@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: yarn
-      - uses: chromui/action@v1
+      - uses: chromaui/action@v1
         with:
           projectToken: ioxs4p3azn8
           # https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
